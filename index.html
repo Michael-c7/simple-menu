@@ -11,14 +11,94 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <!--Icons
-        
-        
-        -->
-        
-        
+        <article class="card">
+            <header class="card__header">
+                <div class="header__icon__container">
+                    <i class="fa fa-file-text-o header__icon" aria-hidden="true"></i>
+                </div>
+                <div class="header__text">
+                    <h1 class="header__text__h1">Documentation</h1>
+                    <h2 class="header__text__h2">Get started with our detailed documentation</h2>
+                </div>
+            </header>
+
+            <button class="close-card-btn">
+                <div class="close-card-btn__icon-container">
+                    <i class="fa fa-times close-card-btn__icon" aria-hidden="true"></i>
+                </div>
+            </button>
+
+            <section class="card__links-section">
+                <ul class="platform__items">
+                    <li class="platform__items">
+                        <h2 class="platform__items__heading">Platform</h2>
+                    </li>
+                    <li class="platform__items">
+                        <a class="platform__items__link" href="#">Editor</a>
+                    </li>
+                    <li class="platform__items">
+                        <a class="platform__items__link" href="#">Themes</a>
+                    </li>
+                    <li class="platform__items">
+                        <a class="platform__items__link" href="#">Preview</a>
+                    </li>
+                    <li class="platform__items">
+                        <a class="platform__items__link" href="#">Recordings</a>
+                    </li>
+                </ul>
+                <ul class="integrations__items">
+                    <li class="integrations__items">
+                        <h2 class="integrations__items__heading">Integrations</h2>
+                    </li>
+
+                    <li class="integrations__item">
+                        <i class="fa fa-chrome integrations__item__icon" aria-hidden="true"></i>
+                        <a class="integrations__items__link" href="#">Chrome</a>
+                    </li>
+
+                    <li class="integrations__item">
+                        <i class="fa fa-slack integrations__item__icon" aria-hidden="true"></i>
+                        <a class="integrations__items__link" href="#">Slack</a>
+                    </li>
+
+                    <li class="integrations__item">
+                        <i class="fa fa-firefox integrations__item__icon" aria-hidden="true"></i>
+                        <a class="integrations__items__link" href="#">Firefox</a>
+                    </li>
+
+                    <li class="integrations__item">
+                        <i class="fa fa-twitter integrations__item__icon" aria-hidden="true"></i>
+                        <a class="integrations__items__link" href="#">Twitter</a>
+                    </li>
+                </ul>
+            </section>
+
+            <footer class="card__footer">
+                <ul class="footer__items">
+                    <li class="footer__item">
+                        <a class="footer__item__link" href="#">API reference</a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__item__link" href="#">Status</a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__item__link" href="#">Support</a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__item__link" href="#">Changing</a>
+                    </li>
+                </ul>
+            </footer>
+        </article>
+
+
+        <button class="open-card-btn">Open Docs</button>
+
+
+
         <script src="script.js" async defer></script>
     </body>
 </html>
